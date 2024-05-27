@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Idiomas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="College Idiomas Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Bem-vindo ao College Idiomas</h1>
+            <p>A melhor escola de inglês para você alcançar seus objetivos!</p>
+            <button onclick="scrollToSection('sobre')">Saiba Mais</button>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>O College Idiomas é dedicado a fornecer educação de qualidade em inglês...</p>
+        </section>
+        <section id="cursos">
+            <h2>Nossos Cursos</h2>
+            <div class="curso">
+                <h3>Curso Básico</h3>
+                <p>Para iniciantes que estão começando a aprender inglês.</p>
+            </div>
+            <div class="curso">
+                <h3>Curso Intermediário</h3>
+                <p>Para alunos com conhecimento básico que querem melhorar suas habilidades.</p>
+            </div>
+            <div class="curso">
+                <h3>Curso Avançado</h3>
+                <p>Para alunos avançados que querem atingir a fluência.</p>
+            </div>
+        </section>
+        <section id="depoimentos">
+            <h2>Depoimentos</h2>
+            <div class="depoimento">
+                <p>"Aprender no College Idiomas mudou minha vida!" - João Silva</p>
+            </div>
+            <div class="depoimento">
+                <p>"Os professores são incríveis e os métodos de ensino são excelentes." - Maria Souza</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 College Idiomas. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
